@@ -1,3 +1,5 @@
+import os
+
 def sinStop(array):
     arr=[]
     for i in range(len(array)):
@@ -45,3 +47,4 @@ for line in lines:
     outCleaned.write(" ".join(cleaned)+"\n")
     nostop = sinStop(cleaned)
     outNoStop.write(" ".join(nostop)+"\n")
+os.system('py TF_IDF.py')
