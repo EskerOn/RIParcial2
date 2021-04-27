@@ -14,7 +14,7 @@ def Convert(string):
     return li
 
 def removePunctuation (text):
-    punctuation = "¿!@#%^&*()+'<>?:.,;_-–…{}[]’“”\"0123456789"
+    punctuation = "¿!@#%^&*()+'<>?:.,;_-–…{}[]’“”\"0123456789\n"
     s = text
     for c in s:
         if c in punctuation:
@@ -26,7 +26,7 @@ def limpia(String):
     text=text.lower()
     text=removePunctuation(text)
     array=Convert(text)
-    array = array[:-1]
+    #array = array[:-1]
     return array
 
 def listToStr(arr):

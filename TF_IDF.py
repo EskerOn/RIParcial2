@@ -53,7 +53,7 @@ for word in vocabulario:
 
 #IDF
 for item in moc:
-    moc[item][2][1] = math.log(N/moc[item][2][0], 2)
+    moc[item][2][1] = math.log(N/moc[item][2][0], 10)
 
 #TF/IDF
 for item in moc:
