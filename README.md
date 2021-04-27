@@ -7,6 +7,8 @@ Dado un conjunto de noticias se debe realizar los siguientes pasos:
 *	Obtención de los pesos TF-IDF.
 * Representación de los documentos en TF-IDF
 
+El nombre del archivo ejecutable es "cleanfile.py"
+
 
 ## Integrantes
 * Arancibia Escobar David Rafael          201716731
